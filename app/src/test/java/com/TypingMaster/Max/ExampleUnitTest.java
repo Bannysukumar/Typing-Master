@@ -1,4 +1,4 @@
-package com.TypingMaster.Pro;
+package com.TypingMaster.Max;
 
 import org.junit.Test;
 

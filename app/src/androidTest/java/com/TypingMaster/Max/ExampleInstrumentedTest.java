@@ -1,4 +1,4 @@
-package com.TypingMaster.Pro;
+package com.TypingMaster.Max;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
