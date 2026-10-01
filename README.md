@@ -1,45 +1,57 @@
-# Typing Speed Test Game | CodingNepal
+<!-- readme-seo: bannysukumar-professional-v4 -->
 
-Typing Speed Test Game | CodingNepal is the site whose HTML title is "Typing Speed Test Game | CodingNepal".
+# Typing Speed Test
 
-[![License](https://img.shields.io/github/license/Bannysukumar/Typing-Master)](https://github.com/Bannysukumar/Typing-Master/blob/master/LICENSE) [![Stars](https://img.shields.io/github/stars/Bannysukumar/Typing-Master)](https://github.com/Bannysukumar/Typing-Master/stargazers) [![Last commit](https://img.shields.io/github/last-commit/Bannysukumar/Typing-Master)](https://github.com/Bannysukumar/Typing-Master/commits/master)
+Typing Speed Test is an Android app. The Java package is `com.TypingMaster.Max`, and `MainActivity` loads an HTML typing page from `app/src/main/assets/index.html`.
 
 ## Overview
 
-Typing Speed Test Game | CodingNepal is the site whose HTML title is "Typing Speed Test Game | CodingNepal".
+The bundled page title is "Typing Speed Test Game | CodingNepal". The HTML comment credits CodingNepal. The page shows a text field, typing text, and a time-left result. This repository packages that page inside an Android Gradle project. The GitHub repository name stays `Typing-Master`.
 
+## Features
 
-What is actually in the repository: `app/`, `gradle/`. GitHub reports the primary language as Java.
+- Android entry point `MainActivity`
+- Typing page in `app/src/main/assets/index.html` with a timer and result details
 
 ## Tech Stack
 
 | Technology | Where it shows up |
 |---|---|
-| Android / Gradle | Mobile application build |
+| Java | `app/src/main/java/com/TypingMaster/Max/MainActivity.java` |
+| Android Gradle | `build.gradle`, `settings.gradle`, `gradlew` |
+| HTML | `app/src/main/assets/index.html` |
 
-## Project Architecture
+## Architecture
 
-Android application under app/, built with Gradle.
+Android activity → HTML asset bundled in the app.
 
 ## Project Structure
 
 ```text
 Typing-Master/
-├── app/
+├── app/src/main/java/com/TypingMaster/Max/
+├── app/src/main/assets/index.html
 ├── build.gradle
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
 ├── settings.gradle
+└── gradlew
 ```
 
-## Getting Started
+## Prerequisites
+
+- Android Studio, or a JDK plus the Gradle wrapper
+
+## Installation
 
 ```bash
 git clone https://github.com/Bannysukumar/Typing-Master.git
 cd Typing-Master
-# Open the project in Android Studio, or run the Gradle wrapper from the repository root.
 ```
+
+The default branch is `master`. Open the project in Android Studio.
+
+## Usage
+
+Run the `app` module. The typing UI is the HTML asset, which includes a time-left display.
 
 ## Contributing
 
@@ -47,12 +59,10 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
-Licensed under MIT. See [LICENSE](LICENSE).
+Licensed under MIT. See [LICENSE](LICENSE). The HTML file credits CodingNepal.
 
 ## Author
 
-[Banny Sukumar](https://github.com/Bannysukumar)
+Banny Sukumar
 
-- GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
-- Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
-- LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
+GitHub: https://github.com/Bannysukumar
