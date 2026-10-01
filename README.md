@@ -1,41 +1,58 @@
-<!-- readme-seo: bannysukumar -->
+# Typing Speed Test Game | CodingNepal
 
-# Typing Master
+Typing Speed Test Game | CodingNepal is the site whose HTML title is "Typing Speed Test Game | CodingNepal".
 
-**Typing Master** is an open-source typing-practice application. The code is written mainly in Java and maintained by [Banny Sukumar](https://github.com/Bannysukumar), a blockchain and full-stack developer.
+[![License](https://img.shields.io/github/license/Bannysukumar/Typing-Master)](https://github.com/Bannysukumar/Typing-Master/blob/master/LICENSE) [![Stars](https://img.shields.io/github/stars/Bannysukumar/Typing-Master)](https://github.com/Bannysukumar/Typing-Master/stargazers) [![Last commit](https://img.shields.io/github/last-commit/Bannysukumar/Typing-Master)](https://github.com/Bannysukumar/Typing-Master/commits/master)
 
-This repository is public so developers can read the source, reuse it under the MIT License, and send improvements.
+## Overview
 
-## About this project
+Typing Speed Test Game | CodingNepal is the site whose HTML title is "Typing Speed Test Game | CodingNepal".
 
-Typing Master lives at [`github.com/Bannysukumar/Typing-Master`](https://github.com/Bannysukumar/Typing-Master). Use it as a starting point for a typing-practice application, or study how the Java parts fit together.
 
-## Tech stack
+What is actually in the repository: `app/`, `gradle/`. GitHub reports the primary language as Java.
 
-- Primary language: **Java**
-- License: **MIT**
-- Maintainer: [Banny Sukumar](https://github.com/Bannysukumar)
+## Tech Stack
 
-## Getting started
+| Technology | Where it shows up |
+|---|---|
+| Android / Gradle | Mobile application build |
+
+## Project Architecture
+
+Android application under app/, built with Gradle.
+
+## Project Structure
+
+```text
+Typing-Master/
+├── app/
+├── build.gradle
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+```
+
+## Getting Started
 
 ```bash
 git clone https://github.com/Bannysukumar/Typing-Master.git
 cd Typing-Master
+# Open the project in Android Studio, or run the Gradle wrapper from the repository root.
 ```
-
-Open the project in your editor. Install dependencies only if this repo already includes a manifest such as `package.json`, `requirements.txt`, or a `.csproj` file.
 
 ## Contributing
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before you open a pull request.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Copyright (c) 2026 Banny Sukumar.
+Licensed under MIT. See [LICENSE](LICENSE).
 
 ## Author
+
+[Banny Sukumar](https://github.com/Bannysukumar)
 
 - GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
 - Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
 - LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
-- ORCID: [0009-0007-9766-6579](https://orcid.org/0009-0007-9766-6579)
